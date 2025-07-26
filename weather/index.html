@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Weather Updates</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Weather Update</h1>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><img src="img/glass.jpg"></button>
+        </div>
+        <div class="errormsg">
+          <p>INVALID ENTRY</p>
+        </div>
+        <div class="display">
+        <div class="weather">
+            <img src="img/clear.png" class="weather-icon">
+            <h1 class="temp">35°C</h1>
+            <h2 class="city">Karachi</h2>
+        </div>
+        <div class="details">
+             <div class="col">
+                <img src="img/humidity.png">
+                <div>
+                  <p class="humidity">50%</p>
+                  <p>Humidity</p>
+                </div>
+             </div>
+             <div class="col">
+              <img src="img/wind.png">
+              <div>
+                <p class="wind">15 km/h</p>
+                <p>Wind Speed</p>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <p class="text-center text-muted">© 2025 Company, Inc</p>
+      </footer>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
